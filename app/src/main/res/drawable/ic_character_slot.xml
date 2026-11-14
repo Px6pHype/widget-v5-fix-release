@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Заглушка в списке выбора, если картинка персонажа не найдена -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <path
+        android:pathData="M28,8 a20,20 0 1,0 0,40 a20,20 0 1,0 0,-40"
+        android:strokeColor="#FF8899AA"
+        android:strokeWidth="2" />
+
+    <path
+        android:fillColor="#FF8899AA"
+        android:pathData="M28,14 a5,5 0 1,0 0,10 a5,5 0 1,0 0,-10 M20,44 v-12 a8,8 0 0 1 16,0 v12 z" />
+
+</vector>

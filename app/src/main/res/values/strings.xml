@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BA Assistant</string>
+
+    <!-- Живые обои -->
+    <string name="wallpaper_label">Ассистент SCHALE</string>
+    <string name="wallpaper_description">Арона или Плана на рабочем столе: размытый фон, реакции на тапы, реплики и озвучка</string>
+
+    <string name="settings_title">Ассистент SCHALE</string>
+    <string name="settings_pick">Выбери, кто будет жить на рабочем столе:</string>
+    <string name="settings_install">Установить обои</string>
+    <string name="settings_hint">Тапни по персонажу — покажет реплику и озвучит её. Свайп страниц — наклонится за пальцем. Фон — размытые обои в стиле SCHALE.</string>
+    <string name="settings_selected">%s теперь на рабочем столе</string>
+    <string name="settings_open_picker_fallback">Открой: Настройки → Экран → Обои → Живые обои → «Ассистент SCHALE»</string>
+
+    <!-- Виджет -->
+    <string name="widget_description">Ассистент SCHALE виджетом. Тап — разговор.</string>
+    <string name="pick_character">Выбери персонажа для этого виджета:</string>
+    <string name="hint_add_widget">Чтобы поставить персонажа: добавь виджет BA Assistant на рабочий стол (долгое нажатие на пустое место → Виджеты), затем выбери его здесь.</string>
+    <string name="no_widget_toast">Сначала добавь виджет на рабочий стол</string>
+
+    <!-- Часы с нимбом (в стиле BlueOS) -->
+    <string name="clock_widget_label">Часы SCHALE</string>
+    <string name="clock_widget_description">Часы с нимбом, дата и приветствие — в стиле BlueOS</string>
+    <string name="greeting_morning">Доброе утро, Сэнсэй</string>
+    <string name="greeting_day">Добрый день, Сэнсэй</string>
+    <string name="greeting_evening">Добрый вечер, Сэнсэй</string>
+    <string name="greeting_night">Доброй ночи, Сэнсэй</string>
+</resources>

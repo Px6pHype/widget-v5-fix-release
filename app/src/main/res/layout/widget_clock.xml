@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Часы с нимбом — как в BlueOS: нимб над цифрами, ниже дата и приветствие.
+     Время обновляет сам TextClock, виджету пересборка не нужна. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/halo"
+        android:layout_width="76dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter" />
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="HH:mm"
+        android:format24Hour="HH:mm"
+        android:textColor="#F4F1F7"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextClock
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="EEE, d MMM"
+        android:format24Hour="EEE, d MMM"
+        android:textColor="#ABA3C9"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="#ABA3C9"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Превью виджета в меню «Виджеты»: тёмная карточка с силуэтом персонажа и нимбом -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="300dp"
+    android:viewportWidth="200"
+    android:viewportHeight="300">
+
+    <path
+        android:fillColor="#FF10182C"
+        android:pathData="M32,8 H176 A24,24 0 0 1 200,32 V268 A24,24 0 0 1 176,292 H32 A24,24 0 0 1 8,268 V32 A24,24 0 0 1 32,8 Z" />
+
+    <!-- Нимб -->
+    <path
+        android:pathData="M45,88 a55,14 0 1,0 110,0 a55,14 0 1,0 -110,0"
+        android:strokeColor="#FF66CCFF"
+        android:strokeWidth="4" />
+
+    <!-- Голова -->
+    <path
+        android:fillColor="#FFE8EEF7"
+        android:pathData="M56,88 a44,44 0 1,0 88,0 a44,44 0 1,0 -88,0" />
+
+    <!-- Тело -->
+    <path
+        android:fillColor="#FFE8EEF7"
+        android:pathData="M82,148 H118 A30,30 0 0 1 148,178 V218 A30,30 0 0 1 118,248 H82 A30,30 0 0 1 52,218 V178 A30,30 0 0 1 82,148 Z" />
+
+</vector>
